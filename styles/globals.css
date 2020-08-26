@@ -1,0 +1,70 @@
+body {
+	background: #f1f1f1
+}
+.navbar{
+	background: /*#FCA631*/#1D3557;
+}
+
+.navbar .navbar-nav .nav-item{
+	margin-right: 20px;
+	transition: 0.3s;
+}
+
+.navbar .navbar-nav .nav-item.active{
+	color: white;
+	background: #5888A6;
+	border-bottom: 2px solid white;
+	border-radius: 8px;
+}
+
+.navbar .navbar-nav .nav-item:hover{
+	background: #5888A6;
+	border-bottom: 2px solid white;
+	border-radius: 8px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+	color: white;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link{
+	color: #FFFFFF;
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link{
+	color: white;
+}
+
+.btn-theme{
+	background: #FCA631;
+	color: white;
+}
+
+#nprogress .bar {
+background: red !important;
+}
+
+.anima-show-hide{
+	animation-name: showhide;
+  	animation-duration: 1s;
+  	animation-iteration-count: infinite;
+}
+
+.btn.active{
+	background: #00A7FF;
+	color: white;
+}
+
+@keyframes showhide {
+	0% {
+		opacity: 100%;
+	}
+	
+	50%{
+		opacity: 40%
+	}
+	
+	100% {
+		opacity: 100%;
+	}
+}
